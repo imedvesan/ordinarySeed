@@ -1,0 +1,88 @@
+
+body {
+    background: #eff2f3;
+    font-family: kepler-std, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.blurb h2 {
+    font-family: 'Unica One', cursive;
+   color: #414535;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #9F956C;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.blurb a {
+    color: #9F956C;
+    text-decoration: underline;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #414535;
+}
+
+#mainNavbar .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#headingGroup p {
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+.navbar.scrolled {
+    background: #9F956C;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+nav a {
+    font-family: 'Unica One', cursive;
+}
+
+#bcgr {
+    background-image: url(imgs/fifth.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home img {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.pics img{
+    border: 2rem solid white;
+}
+
+.sideBySide {
+    display: flex;
+}

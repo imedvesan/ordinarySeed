@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css">
+
+    <title>Ordinary Seed</title>
+</head>
+
+<body>
+    <div id="bcgr">
+        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+            <a href="#" class="navbar-brand">Ordinary Seed</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="home" class="container-fluid px-0">
+            <div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="imgs/secondPic.jpg" alt="flower bouquet">
+                </div>
+            </div>
+
+            <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5 mx-auto" >
+                <p>Because out of the most ordinary seeds can grow the most extraordinary things.</p>
+            </div>
+        </section>
+    </div>
+
+    <section id="about" class="container-fluid px-0">
+        <div class="blurb text-center">
+            <h2>Ordinary Seed</h2>
+            <p class="lead">Floral Design</p>
+            <p class="lead">Weddings + Events</p>
+            <p class="lead">Subscriptions</p>
+            <p class="lead">Corporate</p>
+            <p class="lead">Events + Subscriprions</p>
+            <p class="lead">Styled Photo Shoots</p>
+        </div>
+    </section>
+
+    <section class="pics">
+        <div class="col-lg-6 mx-auto">
+            <img class="img-fluid" src="imgs/firstPic.jpg" alt="flower bouquet">
+            <img class="img-fluid" src="imgs/thirdPic.jpg" alt="flower bouquet">
+        </div>
+    </section>
+
+    <section>
+        <div id="contact" class="blurb text-center">
+            <br />
+            <h2>Ordinary Seed</h2>
+            <br/>
+            <div class="sideBySide">
+                <div class="col-md-6">
+                    <p class="lead">Follow us on:</p>
+                    <p>
+                        <i class="fa fa-instagram" aria-hidden="true"></i> <a href="https://www.instagram.com/ordinary_seed/" target="_blank">Instagram</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i><a href="https://www.pinterest.com/OrdinarySeed/?invite_code=4ad86b721018445fa0bd5dbd5292dd1a&sender=338262759420466177" target="_blank"> Pinterest</a>
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <p class="lead">Contact us:</p>
+                    <p class="lead">info@ordinaryseed.com</p>
+                    <p class="lead">773.704.0836</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+
+</html>
